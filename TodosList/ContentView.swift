@@ -8,17 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var show = ""
+    @State private var show = ""
     @Environment(\.managedObjectContext) private var viewContext
     @FetchRequest(entity: Task.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \Task.show, ascending: true)])
     
     private var tasks: FetchedResults<Task>
-    var array = ["1", "2", "3", "4", "rok", "9"]
-    var totalSum: String {
-        let newArr1 = array.compactMap {Int($0)}
-        let newArr = newArr1.reduce(0, +)
-        return ("\(newArr)")
-    }
     
     var body: some View {
         NavigationView {
@@ -36,11 +30,6 @@ struct ContentView: View {
                         updateTask(task)
                     })
                 }.onDelete(perform: deleteTasks)
-                HStack {
-                    Text("В массиве \(totalSum) элемента")
-                    
-                    Spacer()
-                }
             }
             .navigationTitle("Todo List")
             .navigationBarItems(trailing: Button("Add Task") {

@@ -9,7 +9,6 @@ import SwiftUI
 
 @main
 struct TodosListApp: App {
-    
     let persistenceContainer = PersistenceController.shared
     
     var body: some Scene {

@@ -13,7 +13,6 @@
 		BD3822D025E36BCD002F7CFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3822CF25E36BCD002F7CFF /* Preview Assets.xcassets */; };
 		BD3822DA25E36C31002F7CFF /* TodosList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD3822D825E36C31002F7CFF /* TodosList.xcdatamodeld */; };
 		BD3822E125E36DF4002F7CFF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3822E025E36DF4002F7CFF /* Persistence.swift */; };
-		BDDC208125EEC2E000A80D71 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC208025EEC2E000A80D71 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		BD3822D125E36BCD002F7CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3822D925E36C31002F7CFF /* TodosList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodosList.xcdatamodel; sourceTree = "<group>"; };
 		BD3822E025E36DF4002F7CFF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		BDDC208025EEC2E000A80D71 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				BD3822CC25E36BCD002F7CFF /* Assets.xcassets */,
 				BD3822D125E36BCD002F7CFF /* Info.plist */,
 				BD3822CE25E36BCD002F7CFF /* Preview Content */,
-				BDDC208025EEC2E000A80D71 /* HomeView.swift */,
 			);
 			path = TodosList;
 			sourceTree = "<group>";
@@ -150,7 +147,6 @@
 				BD3822DA25E36C31002F7CFF /* TodosList.xcdatamodeld in Sources */,
 				BD3822E125E36DF4002F7CFF /* Persistence.swift in Sources */,
 				BD3822CB25E36BCD002F7CFF /* ContentView.swift in Sources */,
-				BDDC208125EEC2E000A80D71 /* HomeView.swift in Sources */,
 				BD3822C925E36BCD002F7CFF /* TodosListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
